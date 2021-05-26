@@ -1,6 +1,8 @@
 
         body {
             font-family: 'Open Sans', sans-serif;
+           
+  
         }
 
         header {
@@ -20,6 +22,7 @@
 
         li {
             display: inline;
+           
         }
 
         h1 {
@@ -43,6 +46,8 @@
         p {
             font-size: 14px;
             color: #5c5c5c;
+    
+            
         }
 
         .menu {
@@ -75,4 +80,24 @@
         .likesBar li {
             color: #fff;
             padding: 10px 35px 10px 5px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
         }
+
+        /* Link Styles */
+
+        a:link {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: lighter;
+
+        }
+
+        a:visited, a:hover {
+            font-weight: bold;
+            color: #fff;
+        }
+
+ 

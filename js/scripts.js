@@ -18,12 +18,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const liElement1 = document.createElement('li');
     liElement1.classList.add('menu');
-    liElement1.innerText = 'Home';
+    liElement1.innerHTML = '<a href = "#">Home</a>';
     ulElement.append(liElement1);
 
     const liElement2 = document.createElement('li');
     liElement2.classList.add('menu');
-    liElement2.innerText = 'Categories';
+    liElement2.innerHTML = '<a href = "#">Categories</a>';
     ulElement.append(liElement2);
 
     //Main Body Elements:
