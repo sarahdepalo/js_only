@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //Main Body Elements:
     const mainElement = document.createElement('main');
-    mainElement.classList.add('mainBody');
     container.append(mainElement);
 
     const mainContainer = document.createElement('div');
@@ -49,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //Container 2:
     const secondaryContainer = document.createElement('div');
     secondaryContainer.classList.add('bodyContainer');
-    mainContainer.append(secondaryContainer);
+    mainElement.append(secondaryContainer);
 
     const h3Element1 = document.createElement('h3');
     h3Element1.innerText = "Hello WatchKit";
@@ -66,12 +65,12 @@ document.addEventListener('DOMContentLoaded', function() {
     //When you move onto styling have all the p's in the likesBar class go to inline styling. 
     const commentElement1 = document.createElement('li');
     commentElement1.innerHTML = "<li>12 Comments</li><li>124 likes</li>";
-    secondaryContainer.append(commentElement1);
+    likesBar.append(commentElement1);
     
     // Container 3:
     const thirdContainer = document.createElement('div');
     thirdContainer.classList.add('bodyContainer');
-    mainContainer.append(thirdContainer);
+    mainElement.append(thirdContainer);
 
     const h3Element2 = document.createElement('h3');
     h3Element2.innerText = "Introduction to Swift";
@@ -87,6 +86,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const commentElement2 = document.createElement('li');
     commentElement2.innerHTML = "<li>12 Comments</li><li>124 likes</li>";
-    thirdContainer.append(commentElement2);
+    likesBar2.append(commentElement2);
 
 })
